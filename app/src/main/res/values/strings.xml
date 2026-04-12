@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Fuel Mileage Calculator</string>
+    <string name="title_text">Mileage Calculator</string>
+    <string name="hint_distance">Distance Traveled</string>
+    <string name="hint_fuel">Fuel Consumed (Liters)</string>
+    <string name="hint_amount">Amount Spent (₹)</string>
+    <string name="hint_price">Petrol Price (₹/L)</string>
+    <string name="label_calculate">Calculate</string>
+    <string name="label_unit">Select Unit</string>
+    <string name="label_history">History</string>
+    <string name="btn_clear_history">Clear</string>
+    <string name="unit_kml">km/L</string>
+    <string name="unit_mpg">MPG</string>
+    <string name="result_placeholder">Enter details</string>
+    <string name="result_format">Mileage: %.2f</string>
+    <string name="error_zero_fuel">Fuel cannot be zero!</string>
+    <string name="error_invalid_input">Invalid details</string>
+    <string name="mode_cash">Switch to Cash (₹) Mode</string>
+    <string name="mode_liters">Switch to Liters Mode</string>
+</resources>
