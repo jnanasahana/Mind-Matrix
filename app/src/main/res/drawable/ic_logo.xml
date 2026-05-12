@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer Background Shape: Soft Rounded Hexagon/Shield -->
+    <path
+        android:pathData="M50,5 L85,25 L85,75 L50,95 L15,75 L15,25 Z"
+        android:fillColor="#004D40" />
+
+    <!-- Inner Circle for Contrast -->
+    <path
+        android:pathData="M50,50m-35,0a35,35 0,1 1,70 0a35,35 0,1 1,-70 0"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.1"/>
+
+    <!-- Bus Silhouette -->
+    <path
+        android:pathData="M70,35H30C27.8,35 26,36.8 26,39V65C26,66.1 26.9,67 28,67H31C32.1,67 33,66.1 33,65V63H67V65C67,66.1 67.9,67 69,67H72C73.1,67 74,66.1 74,65V39C74,36.8 72.2,35 70,35Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Windshield -->
+    <path
+        android:pathData="M68,39H32V50H68V39Z"
+        android:fillColor="#004D40" />
+
+    <!-- Headlights -->
+    <path
+        android:pathData="M35,58m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+        android:fillColor="#FFC107" />
+    <path
+        android:pathData="M65,58m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+        android:fillColor="#FFC107" />
+
+    <!-- Location Pin Overlay -->
+    <path
+        android:pathData="M50,15C44.5,15 40,19.5 40,25C40,32.5 50,45 50,45C50,45 60,32.5 60,25C60,19.5 55.5,15 50,15ZM50,28C48.3,28 47,26.7 47,25C47,23.3 48.3,22 50,22C51.7,22 53,23.3 53,25C53,26.7 51.7,28 50,28Z"
+        android:fillColor="#FFC107" />
+
+</vector>
